@@ -1,0 +1,121 @@
+/* CSS Document 
+
+This script and many more are also available free online at 
+https://github.com/prakashm88/geniealert and http://code.google.com/p/geniealert/
+Created by: Prakash Mohankumar | http://itechgenie.com/  
+For Lisence terms read: LICENSE.txt
+
+*/
+
+html,body {
+	height:99%
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzJ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/EInbV5DfGHOiMmvb1Xr-hp1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+#modalContainer {
+	background-image: url('images/trans.png') ;
+	background-repeat:repeat ;	
+	position:absolute;
+	width:100%;
+	height:100%;
+    min-height:100%;
+	top:0px;
+	left:0px;
+	z-index:10000;
+}
+
+html>body #modalContainer {height:auto;} /*for mozilla */
+
+#alertBox {
+	position:relative;
+	width:100%;
+	min-height:20px;
+	margin-top:10%;
+	background-color:transparent ;	
+}
+
+#modalContainer > #alertBox {
+	position:fixed;	
+}
+
+#headerContainer
+{
+	background-color: green;
+	padding-left: 25%;
+	color: #fff;
+}
+
+#alertBox h1 {
+	margin:0;
+	font-family: 'Segoe UI Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.7em;
+	padding:5px 10px;	
+}
+
+#bodyContainer {
+	height: 100% ;
+	background-color: green;	
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+#alertBox #msgconobj {
+	font-family: 'Segoe Mono Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align:justify;
+	min-height: 120px;
+	height:100%;
+	padding-left:10px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+#alertBox #btnDiv 
+{
+	display:block ;
+	width:98%;
+	text-align: right ;
+	padding: 10px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+#alertBox .alertButtons
+{
+	display:inline;
+	padding: 4px 50px;
+	margin: 8px;
+	border:1px solid #fff;
+	width: 200px;
+	font:1em 'Segoe Mono Light', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold ;
+	text-transform:uppercase;
+	text-align:right;
+	color:#fff;
+	background-color:green;
+	text-decoration:none;		
+}

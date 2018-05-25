@@ -1,0 +1,53 @@
+﻿.message-box {
+    width: 300px;
+    display: inline;
+    height: auto;
+    padding: 30px 20px;
+    position: fixed;
+    right: -350px;
+    top: 70px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.close-btn
+{
+    position: absolute;
+    right: 6px;
+    top: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.close-btn:hover
+{
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    
+}
+
+.message {
+    width: 100%;
+}
+
+.success {
+    background-color: #72A101;
+    border: 2px solid #4d6d01;
+}
+
+.error {
+    background-color: #d04a01;
+    border: 2px solid #983600;
+}
+
+.info {
+    background-color: #0285c2;
+    border: 2px solid #00577f;
+}
+
+.warning {
+    background-color: #FFFF00;
+    border: 2px solid #00577f;
+    color: Black;
+}

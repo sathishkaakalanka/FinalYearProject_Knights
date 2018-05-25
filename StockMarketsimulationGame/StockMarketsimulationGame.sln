@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarketsimulationGame", "StockMarketsimulationGame\StockMarketsimulationGame.csproj", "{E87BD05E-654C-40FB-A509-C5DDD63BD738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntity", "BusinessEntity\BusinessEntity.csproj", "{E54FB519-F080-4F85-8E22-0D96B0AC5FA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{D0936F3C-F313-48A0-AF81-F33D73E65D82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{41B60DBF-43F7-4110-B61B-6B51D74F6C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{003B1DED-1D96-49D9-B61C-729CD6427912}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{E7207391-C1FC-4E89-A0A4-7EB8830A9CBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessBL", "BusinessBL\BusinessBL.csproj", "{CF8F45A8-B56A-4169-8B65-F4DFE80AA045}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D6526A77-C1EE-434F-B333-E765EC77A6EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E87BD05E-654C-40FB-A509-C5DDD63BD738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87BD05E-654C-40FB-A509-C5DDD63BD738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87BD05E-654C-40FB-A509-C5DDD63BD738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87BD05E-654C-40FB-A509-C5DDD63BD738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54FB519-F080-4F85-8E22-0D96B0AC5FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54FB519-F080-4F85-8E22-0D96B0AC5FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54FB519-F080-4F85-8E22-0D96B0AC5FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54FB519-F080-4F85-8E22-0D96B0AC5FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003B1DED-1D96-49D9-B61C-729CD6427912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003B1DED-1D96-49D9-B61C-729CD6427912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003B1DED-1D96-49D9-B61C-729CD6427912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003B1DED-1D96-49D9-B61C-729CD6427912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8F45A8-B56A-4169-8B65-F4DFE80AA045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8F45A8-B56A-4169-8B65-F4DFE80AA045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8F45A8-B56A-4169-8B65-F4DFE80AA045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8F45A8-B56A-4169-8B65-F4DFE80AA045}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E87BD05E-654C-40FB-A509-C5DDD63BD738} = {D6526A77-C1EE-434F-B333-E765EC77A6EF}
+		{E54FB519-F080-4F85-8E22-0D96B0AC5FA1} = {D0936F3C-F313-48A0-AF81-F33D73E65D82}
+		{003B1DED-1D96-49D9-B61C-729CD6427912} = {41B60DBF-43F7-4110-B61B-6B51D74F6C18}
+		{CF8F45A8-B56A-4169-8B65-F4DFE80AA045} = {E7207391-C1FC-4E89-A0A4-7EB8830A9CBF}
+	EndGlobalSection
+EndGlobal

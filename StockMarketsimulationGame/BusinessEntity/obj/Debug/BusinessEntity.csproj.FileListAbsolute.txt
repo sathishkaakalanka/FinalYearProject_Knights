@@ -1,0 +1,12 @@
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\bin\Debug\BusinessEntity.dll.config
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\bin\Debug\BusinessEntity.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\bin\Debug\BusinessEntity.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.Migrations.euu.resources
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
