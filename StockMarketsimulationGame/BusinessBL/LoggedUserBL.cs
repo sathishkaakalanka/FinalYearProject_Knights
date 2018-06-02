@@ -44,7 +44,7 @@ namespace BusinessBL
             NewUser.Email = Email;
             NewUser.InvesterName = UserName;
             NewUser.password = Password;            
-            var user = new LoggedUserRepository(ctx).AddBOQ(NewUser);
+            var user = new LoggedUserRepository(ctx).AddUser(NewUser);
             return true;
         }
         public bool GetLoggedUser(string UserName, string Password)

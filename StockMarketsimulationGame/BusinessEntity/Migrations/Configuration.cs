@@ -9,7 +9,7 @@ namespace BusinessEntity.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(BusinessEntity.StockMarket context)

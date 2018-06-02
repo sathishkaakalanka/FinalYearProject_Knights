@@ -15,7 +15,6 @@ C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\St
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\StockMarketsimulationGame.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\StockMarketsimulationGame.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\Antlr3.Runtime.dll
-C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessEntity.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.SqlServer.dll
@@ -36,10 +35,13 @@ C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\St
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Deployment.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Razor.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\UIProcess.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\WebGrease.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\InvestorserviceHost.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\Repositories.dll
-C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessEntity.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\UIProcess.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.xml
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.SqlServer.xml
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.DependencyCollector.xml
@@ -57,6 +59,8 @@ C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\St
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Razor.xml
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\Antlr3.Runtime.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\Newtonsoft.Json.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\InvestorserviceHost.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\bin\Repositories.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.dll

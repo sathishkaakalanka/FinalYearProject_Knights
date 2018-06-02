@@ -54,15 +54,18 @@
     <Compile Include="Entities\BankAccount.cs" />
     <Compile Include="Entities\CompanyVersion.cs" />
     <Compile Include="Entities\Company.cs" />
+    <Compile Include="Entities\BrokerTransaction.cs" />
     <Compile Include="Entities\Sector.cs" />
-    <Compile Include="Entities\Transaction.cs" />
-    <Compile Include="Entities\Bank.cs" />
-    <Compile Include="Entities\TransactionType.cs" />
+    <Compile Include="Entities\InvesterTransaction.cs" />
     <Compile Include="Entities\Invester.cs" />
     <Compile Include="Entities\Broker.cs" />
-    <Compile Include="Migrations\201805241305233_euu.cs" />
-    <Compile Include="Migrations\201805241305233_euu.Designer.cs">
-      <DependentUpon>201805241305233_euu.cs</DependentUpon>
+    <Compile Include="Migrations\201805281647429_AddUr.cs" />
+    <Compile Include="Migrations\201805281647429_AddUr.Designer.cs">
+      <DependentUpon>201805281647429_AddUr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806021007176_xx.cs" />
+    <Compile Include="Migrations\201806021007176_xx.Designer.cs">
+      <DependentUpon>201806021007176_xx.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,8 +76,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805241305233_euu.resx">
-      <DependentUpon>201805241305233_euu.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805281647429_AddUr.resx">
+      <DependentUpon>201805281647429_AddUr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806021007176_xx.resx">
+      <DependentUpon>201806021007176_xx.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

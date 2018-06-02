@@ -13,9 +13,9 @@ namespace BusinessEntity
         [Key]
         public Guid BankAccountId { get; set; }
         public string BankAccountName { get; set; }
-        public Guid BankId { get; set; }
+       // public Guid BankId { get; set; }
 
-        [ForeignKey("BankId")]
-        public virtual Bank Banks { get; set; }
+       // [ForeignKey("BankId")]
+      //  public virtual Bank Banks { get; set; }
     }
 }

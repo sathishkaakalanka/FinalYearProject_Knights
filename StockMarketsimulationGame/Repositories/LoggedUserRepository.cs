@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using BusinessEntity;
 
 namespace Repositories
 {
-    public class LoggedUserRepository
+    public class LoggedUserRepository:StockMarket
     {
         StockMarket ctx = null;
         public LoggedUserRepository(StockMarket dbCtx)
         {
             ctx = dbCtx;
         }
-        public bool AddBOQ(Invester Newuser)
+        public bool AddUser(Invester Newuser)
         {
             ctx.Invester.Add(Newuser);
             ctx.SaveChanges();
@@ -43,10 +44,10 @@ namespace Repositories
         {
             Password = base64Encodepassword(Password);
             bool TrueUser = false;
-            Invester User = (from user in ctx.Invester
-                             where user.InvesterName == UserName && user.password == Password
-                             select user).FirstOrDefault();
-            if (User != null)
+            int User = (from user in ctx.Invester
+                                  // where user.InvesterName == UserName /*&& user.password == Password*/
+                                   select user).ToList().Count;
+            if (User != 0)
             {
                 TrueUser = true;
             }

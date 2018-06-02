@@ -24,15 +24,16 @@ namespace BusinessEntity
             : base("name=StockMarket")
         {
         }
-        public  DbSet<Bank> Bank { get; set; }
+       // public  DbSet<Bank> Bank { get; set; }
         public DbSet<BankAccount> BankAccount { get; set; }
         public DbSet<Broker> Broker { get; set; }
         public DbSet<Company> Company { get; set; }
         public DbSet<CompanyVersion> CompanyVersion { get; set; }
         public DbSet<Invester> Invester { get; set; }
         public DbSet<Sector> Sector { get; set; }
-        public DbSet<Transaction> Transaction { get; set; }
-        public DbSet<TransactionType> TransactionType { get; set; }
+        public DbSet<InvesterTransaction> InvesterTransaction { get; set; }
+        public DbSet<BrokerTransaction> BrokerTransaction { get; set; }
+        // public DbSet<TransactionType> TransactionType { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
