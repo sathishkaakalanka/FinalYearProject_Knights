@@ -11,3 +11,5 @@ C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\Bu
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.csproj.GenerateResource.Cache
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.Migrations.mmk.resources
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.Migrations.mmkhj.resources

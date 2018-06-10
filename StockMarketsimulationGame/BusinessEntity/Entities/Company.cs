@@ -15,7 +15,7 @@ namespace BusinessEntity
         public Guid SectorId { get; set; }
         public string CompanyName { get; set; }
         public int AvailablePercentage { get; set; }
-        public int UnitPrice { get; set; }
+        public float UnitPrice { get; set; }
 
        [ForeignKey("SectorId")]
         public virtual Sector Sectors { get; set; }

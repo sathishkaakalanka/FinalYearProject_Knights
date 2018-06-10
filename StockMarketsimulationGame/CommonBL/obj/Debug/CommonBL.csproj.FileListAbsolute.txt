@@ -1,0 +1,10 @@
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\bin\Debug\CommonBL.dll.config
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\bin\Debug\CommonBL.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\bin\Debug\CommonBL.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.pdb

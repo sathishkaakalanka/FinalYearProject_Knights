@@ -2,13 +2,31 @@ C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\Bu
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessBL.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessBL.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessEntity.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\CommonBL.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\Repositories.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessEntity.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\CommonBL.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\Repositories.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.xml
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\obj\Debug\BusinessBL.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\obj\Debug\BusinessBL.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessBL\obj\Debug\BusinessBL.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessBL.dll.config
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessBL.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessBL.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessEntity.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\CommonBL.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\Repositories.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessEntity.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\CommonBL.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\Repositories.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\obj\Debug\BusinessBL.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\obj\Debug\BusinessBL.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\obj\Debug\BusinessBL.pdb

@@ -54,6 +54,10 @@
       <Project>{e54fb519-f080-4f85-8e22-0d96b0ac5fa1}</Project>
       <Name>BusinessEntity</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CommonBL\CommonBL.csproj">
+      <Project>{29deae61-5169-48e1-81ca-974729bd97e8}</Project>
+      <Name>CommonBL</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
