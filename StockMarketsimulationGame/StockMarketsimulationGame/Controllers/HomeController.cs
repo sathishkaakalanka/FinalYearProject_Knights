@@ -65,5 +65,10 @@ namespace StockMarketsimulationGame.Controllers
         //        throw new Exception("Error in base64Encode" + ex.Message);
         //    }
         //}
+
+        public ActionResult NewPage_Layout_Loggin()
+        {
+            return View();
+        }
     }
 }

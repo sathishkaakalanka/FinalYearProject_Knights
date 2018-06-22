@@ -542,7 +542,9 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
@@ -550,7 +552,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\NewPage_Layout.cshtml" />
     <Content Include="Views\Shared\NewPage_Layout_Loggin.cshtml" />
-    <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\Dashboard\index.cshtml" />
     <Content Include="Views\UnauthorizedUser\Index.cshtml" />
     <None Include="Service References\ServiceReference1\InvestorService.wsdl" />
     <None Include="Service References\ServiceReference1\InvestorService.xsd">
@@ -559,6 +561,11 @@
     <None Include="Service References\ServiceReference1\InvestorService1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="Views\Dashboard\Analyst.cshtml" />
+    <Content Include="Views\Dashboard\Player.cshtml" />
+    <Content Include="Views\Dashboard\Player2.cshtml" />
+    <Content Include="Views\Dashboard\Player3.cshtml" />
+    <Content Include="Views\Dashboard\Broker.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -568,7 +575,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
