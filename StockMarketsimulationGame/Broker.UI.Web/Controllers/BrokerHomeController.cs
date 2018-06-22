@@ -15,7 +15,9 @@ namespace Broker.UI.Web.Controllers
             ViewBag.test = ss;
             return View();
         }
-
-
+        public ActionResult Broker_Details()
+        {
+            return View();
+        }
     }
 }

@@ -13,3 +13,18 @@ C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\Bu
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.pdb
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.Migrations.mmk.resources
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.Migrations.mmkhj.resources
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\bin\Debug\BusinessEntity.dll.config
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\bin\Debug\BusinessEntity.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\bin\Debug\BusinessEntity.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\bin\Debug\EntityFramework.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\bin\Debug\EntityFramework.SqlServer.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\bin\Debug\EntityFramework.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\bin\Debug\EntityFramework.SqlServer.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.Migrations.AddUr.resources
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.Migrations.xx.resources
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.Migrations.mmk.resources
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.Migrations.mmkhj.resources
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.csproj.GenerateResource.Cache
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BusinessEntity\obj\Debug\BusinessEntity.pdb
