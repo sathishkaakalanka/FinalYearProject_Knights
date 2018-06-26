@@ -82,6 +82,7 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\StockMarketsimulationGame.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\StockMarketsimulationGame.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessEntity.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.SqlServer.dll
@@ -102,13 +103,10 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Deployment.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Razor.dll
-C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\UIProcess.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\WebGrease.dll
-C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\InvestorserviceHost.dll
-C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\Repositories.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessEntity.pdb
-C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\UIProcess.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.xml
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.SqlServer.xml
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.DependencyCollector.xml
@@ -126,12 +124,17 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Razor.xml
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\Antlr3.Runtime.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\Newtonsoft.Json.xml
-C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\InvestorserviceHost.pdb
-C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\Repositories.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
 C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\ApplicationInsights.config
 C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\csc.exe
 C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -199,3 +202,78 @@ C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimu
 C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.csprojResolveAssemblyReference.cache
 C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.dll
 C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\ApplicationInsights.config
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\csc.exe
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\vbc.exe
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\VBCSCompiler.exe
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\StockMarketsimulationGame.dll.config
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\StockMarketsimulationGame.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\StockMarketsimulationGame.pdb
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Antlr3.Runtime.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessEntity.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.SqlServer.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.Web.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Newtonsoft.Json.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.Helpers.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.Mvc.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.Optimization.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.Razor.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Razor.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\UIProcess.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\WebGrease.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\InvestorserviceHost.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Repositories.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessEntity.pdb
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\UIProcess.pdb
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\EntityFramework.SqlServer.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.Web.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.Helpers.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.Mvc.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.Optimization.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.Razor.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\System.Web.WebPages.Razor.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Antlr3.Runtime.pdb
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Newtonsoft.Json.xml
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\InvestorserviceHost.pdb
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\BusinessBL.pdb
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\bin\Repositories.pdb
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.csprojResolveAssemblyReference.cache
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.dll
+C:\Users\Oshan\Desktop\FinalYearProject_Knights-master\FinalYearProject_Knights-master\StockMarketsimulationGame\StockMarketsimulationGame\obj\Debug\StockMarketsimulationGame.pdb
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332

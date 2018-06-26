@@ -1,6 +1,18 @@
+<<<<<<< HEAD
 ﻿@{
     ViewBag.Title = "Analyst";
     Layout = "~/Views/Shared/_Layout.cshtml";
+=======
+﻿
+@{
+    ViewBag.Title = "Analyst";
+<<<<<<< HEAD
+    Layout = "~/Views/Shared/NewPage_Layout.cshtml";
+=======
+<<<<<<< HEAD
+    Layout = "~/Views/Shared/_Layout.cshtml";
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
 }
 <script src="~/Content/CanversJS/CanversJSGraphs.js"></script>
 <script>
@@ -66,7 +78,13 @@
             }]
         });
         chart.render();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
     Layout = "~/Views/Shared/NewPage_Layout.cshtml";
 }
 
@@ -74,7 +92,11 @@
 <script>
 
     $(document).ready(function () {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
         $("#jqxwindowNewUser").jqxWindow({
             height: 327,
             //height: 'auto',
@@ -112,7 +134,11 @@
     }
     function CreatePieChatrGrid()
     {
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
        var gridDataAdapter = new $.jqx.dataAdapter(GridSource);
         var theme = "Energyblue";
         $("#jqxTransactiondata").jqxGrid(
@@ -151,7 +177,11 @@
             }
         });
     }
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
     function LoadTransactionGrid()
     {
         debugger;
@@ -171,7 +201,11 @@
                      }
                  }).fail(function (ev) {
                  });
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
     }
     function NewUserLogin() {
         $("#jqxwindowNewUser").jqxWindow('open');
@@ -311,9 +345,16 @@
         var editUrl = '@Url.Action("Index", "Dashboard")';
         window.location = editUrl;
 
+<<<<<<< HEAD
 
     }
 </script>
+=======
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
+    }
+    </script>
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
 <!--main content start-->
 <section id="main-content">
     <section class="wrapper">
@@ -336,20 +377,38 @@
         </div>
     </section>
 </section>
+<<<<<<< HEAD
 
 <button></button>
 <!--main content end-->
 
+=======
+<<<<<<< HEAD
+<button></button>
+<!--main content end-->
+=======
+<<<<<<< HEAD
+<button></button>
+<!--main content end-->
+=======
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
 <table id="DetailTable" style="width:100%;margin-left:5%;margin-right:5%;color:#020406">
     <tr>
         <td style="width:250px">
             @Html.Label("Sector", new { @class = "control-label col-sm-9", @style = "text-align:left; max-width:350px" })
         </td>
         <td>
+<<<<<<< HEAD
             @Html.DropDownList("Sector", (List<SelectListItem>)@ViewBag.Sectors, "", new { @class = "form-control", @id = "SelectedSector", @style = "max-width:900px" })
         </td>
     </tr>
 
+=======
+            @Html.DropDownList("Sector", (List<SelectListItem>)@ViewBag.Sectors,"", new { @class = "form-control", @id = "SelectedSector", @style = "max-width:900px" })
+        </td>
+    </tr>
+   
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
 </table>
 <button onclick="NewUserLogin()">jhjhfsaiufh</button>
 <div id='jqxwindowNewUser'>
@@ -358,6 +417,7 @@
     </div>
 </div>
 <div id='Buy'>
+<<<<<<< HEAD
     <table>
         <tr>
             <td>
@@ -371,6 +431,21 @@
     <button onclick="Buy()">
         ffff
     </button>
+=======
+ <table>
+     <tr>
+         <td>
+             @Html.Label("Number Of Sheires", new { @class = "control-label col-sm-9", @style = "text-align:left; max-width:350px" })
+         </td>
+         <td>
+             @Html.TextBox("buy", "", new { @class = "form-control", @id = "NumberOfSheires", @style = "max-width:900px" })
+         </td>
+     </tr>
+ </table>
+           <button onclick="Buy()">
+               ffff
+           </button>    
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
 </div>
 <div id='Sale'>
     <table>
@@ -390,8 +465,18 @@
 <button onclick="Next()">
     index
 </button>
+<<<<<<< HEAD
 <!--main content end-->
 <script src="~/Content/CanversJS/CanversJSGraphs.js"></script>
 @Scripts.Render("~/bundles/jquery")
 @Scripts.Render("~/bundles/JQWidgets")
 @Styles.Render("~/Content/CSS")
+=======
+    <!--main content end-->
+    <script src="~/Content/CanversJS/CanversJSGraphs.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/JQWidgets")
+    @Styles.Render("~/Content/CSS")
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
+>>>>>>> b16180b9a49b8821f098d9c9b4cc8fbbe9a28332
