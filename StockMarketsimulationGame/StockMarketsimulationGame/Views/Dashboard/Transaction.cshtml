@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Analyst";
+    Layout = "~/Views/Shared/NewPage_Layout.cshtml";
+}
+<script src="~/Content/CanversJS/CanversJSGraphs.js"></script>
+<script>
+    window.onload = function () {
+
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            theme: "light1", // "light1", "light2", "dark1", "dark2"
+            title: {
+                text: "Current Broker Success 1"
+            },
+            data: [{
+                type: "column", //change type to bar, line, area, pie, etc
+                //indexLabel: "{y}", //Shows y value on all Data Points
+                indexLabelFontColor: "#5A5757",
+                indexLabelPlacement: "outside",
+                dataPoints: [
+                    { x: 10, y: 71 },
+                    { x: 20, y: 55 },
+                    { x: 30, y: 50 },
+                    { x: 40, y: 65 },
+                    { x: 50, y: 92, indexLabel: "Highest" },
+                    { x: 60, y: 68 },
+                    { x: 70, y: 38 },
+                    { x: 80, y: 71 },
+                    { x: 90, y: 54 },
+                    { x: 100, y: 60 },
+                    { x: 110, y: 36 },
+                    { x: 120, y: 49 },
+                    { x: 130, y: 21, indexLabel: "Lowest" }
+                ]
+            }]
+        });
+        chart.render();
+
+        var chart = new CanvasJS.Chart("chartContainer2", {
+            animationEnabled: true,
+            theme: "light1", // "light1", "light2", "dark1", "dark2"
+            title: {
+                text: "Current Broker Success 2"
+            },
+            data: [{
+                type: "pie", //change type to bar, line, area, pie, etc
+                //indexLabel: "{y}", //Shows y value on all Data Points
+                indexLabelFontColor: "#5A5757",
+                indexLabelPlacement: "outside",
+                dataPoints: [
+                    { x: 10, y: 81 },
+                    { x: 20, y: 155, indexLabel: "Highest" },
+                    { x: 30, y: 50 },
+                    { x: 40, y: 55 },
+                    { x: 50, y: 92 },
+                    { x: 60, y: 69 },
+                    { x: 70, y: 40 },
+                    { x: 80, y: 71 },
+                    { x: 90, y: 54 },
+                    { x: 100, y: 60 },
+                    { x: 110, y: 136 },
+                    { x: 120, y: 49 },
+                    { x: 130, y: 22, indexLabel: "Lowest" }
+                ]
+            }]
+        });
+        chart.render();
+    }
+    </script>
+<!--main content start-->
+<section id="main-content">
+    <section class="wrapper">
+        <!--overview start-->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header"><i class="fa fa-laptop"></i> Broker</h3>
+                <ol class="breadcrumb">
+                    <li><i class="fa fa-laptop"></i> Broker - Details & Success Rate</li>
+                </ol>
+                <div class="col-md-6">
+                    <div id="chartContainer" style="height: 300px;"></div>
+                    <br />
+                </div>
+                <div class="col-md-6">
+                    <div id="chartContainer2" style="height: 300px;"></div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<button></button>
+<!--main content end-->

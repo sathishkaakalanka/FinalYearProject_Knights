@@ -20,7 +20,7 @@ namespace StockMarketsimulationGame.Controllers
             var LoggedUser = new LoggedUserUIProcess().GetLoggedUser(UserName, Logged);
             if (LoggedUser == true)
             {
-                return RedirectToAction("Index", "Dashboard");
+                return RedirectToAction("Player", "Dashboard");
             }
             else
             {
