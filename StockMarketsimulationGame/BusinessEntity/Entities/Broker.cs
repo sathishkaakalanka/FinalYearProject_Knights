@@ -12,6 +12,8 @@ namespace BusinessEntity
         [Key]
         public Guid BrokerId { get; set; }
         public string BrokerName { get; set; }
-      
+        public string password { get; set; }
+        public string Email { get; set; }
+
     }
 }

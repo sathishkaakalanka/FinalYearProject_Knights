@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+    <title>@ViewBag.Final Year Project</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--side-->
+    <link href="~/Content/sidebar/sidecss.css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!--side-->
+</head>
+<body>
+    <!--nav bar************************************************************************************************-->
+    <!-- container section start -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="@Url.Action("index", null, new { area = string.Empty, controller = "Dashboard" }, Request.Url.Scheme)">
+                    Stock Market-PlayerDashboard
+                </a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="navbar-brand" href="#">1000$</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!--nav bar end ************************************************************************************************-->
+    <!--side here-->
+   <div class="row">
+       <div class="col-lg-5">
+           <nav class="navbar navbar-inverse sidebar" role="navigation">
+               <div class="container-fluid">
+
+                   <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                       </button>
+                       <a class="navbar-brand" href="#">Brand</a>
+                   </div>
+
+                   <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                       <ul class="nav navbar-nav">
+                           <li class="active"><a class="" href="@Url.Action("index", null, new { area = string.Empty, controller = "Dashboard" }, Request.Url.Scheme)">
+                            Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+                           <li><a class="" href="@Url.Action("Transaction", "Dashboard", new { area = string.Empty, controller = "Dashboard" }, Request.Url.Scheme)">
+                           Broker<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+                           <li><a class="" href="@Url.Action("Analyst", "Dashboard", new { area = string.Empty, controller = "Dashboard" }, Request.Url.Scheme)">
+                            Analyst<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+                           <li><a class="" href="@Url.Action("NewPage_Layout_Loggin", "Shared", new { area = string.Empty, controller = "Shared" }, Request.Url.Scheme)">
+                            Logout<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>
+                           @*<li><a href="#">Messages<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-envelope"></span></a></li>*@
+
+
+
+                       </ul>
+                   </div>
+               </div>
+           </nav>
+       </div>
+   </div>
+    <!--side end-->
+   
+    <!-- container section start -->
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+         <script src="~/Content/sidebar/sidejs.js"></script>
+    <!-- javascripts -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-ui-1.10.4.min.js"></script>
+    <script src="/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="~/Content/CanversJS/CanversJSGraphs.js"></script>
+    <!-- nice scroll -->
+    <script src="/js/jquery.scrollTo.min.js"></script>
+    <script src="/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <!-- charts scripts -->
+    <script src="/assets/jquery-knob/js/jquery.knob.js"></script>
+    <script src="/js/jquery.sparkline.js" type="text/javascript"></script>
+    <!--script for this page only-->
+    <script src="/js/jquery.rateit.min.js"></script>
+    <!-- custom select -->
+    <script src="/js/jquery.customSelect.min.js"></script>
+    <!--custome script for all page-->
+    <script src="/js/scripts.js"></script>
+    <!-- custom script for this page-->
+    <script src="/js/jquery.autosize.min.js"></script>
+    <script src="/js/jquery.placeholder.min.js"></script>
+    <script src="/js/gdp-data.js"></script>
+    <script src="/js/morris.min.js"></script>
+    <script src="/js/sparklines.js"></script>
+    <script src="/js/jquery.slimscroll.min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

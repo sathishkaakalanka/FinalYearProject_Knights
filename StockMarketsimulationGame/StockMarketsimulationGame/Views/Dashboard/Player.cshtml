@@ -1,0 +1,159 @@
+﻿@***************************************player_dashbord*************************************************************************@
+@{
+    ViewBag.Title = "Player";
+    Layout = "~/Views/Shared/NewPage_Layout.cshtml";
+}
+
+<script>
+    function GetPlayerNameJohn()
+    {
+        debugger;
+
+        var John = $("#John").val();
+        var url = '@Url.Action("GetPlayer", "Dashboard")';
+        $.post(url, { Player:John },
+
+                   function () {
+                   }).fail(function (ev) {
+                   });
+    }
+    function GetPlayerNameMary() {
+        debugger;
+
+        var Mary = $("#Mary").val();
+        var url = '@Url.Action("GetPlayer", "Dashboard")';
+        $.post(url, { Player: Mary },
+
+                   function () {
+                   }).fail(function (ev) {
+                   });
+
+    }
+    function GetPlayerNamePeter() {
+
+        var Peter = $("#Peter").val();
+        var url = '@Url.Action("GetPlayer", "Dashboard")';
+        $.post(url, { Player: Peter },
+
+                   function () {
+                   }).fail(function (ev) {
+                   });
+
+    }
+    function GetPlayerNameLisa() {
+
+        var Lisa = $("#Lisa").val();
+        var url = '@Url.Action("GetPlayer", "Dashboard")';
+        $.post(url, { Player: Lisa },
+
+                   function () {
+                   }).fail(function (ev) {
+                   });
+
+    }
+    function GetPlayerNameDavid() {
+
+
+        var David = $("#David").val();
+        var url = '@Url.Action("GetPlayer", "Dashboard")';
+        $.post(url, { Player: David },
+
+                   function () {
+                   }).fail(function (ev) {
+                   });
+
+    }
+
+    function Next()
+    {
+        var editUrl = '@Url.Action("Index", "Dashboard")';
+        window.location = editUrl;
+
+    }
+</script>
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Images/images (1).jpg" alt="...">
+                <div class="caption">
+                    <h3>JOHN</h3>
+                    
+                    <button id="John" class="btn btn-default" onclick="GetPlayerNameJohn()" value="John"> ADD </button>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Images/images (4).jpg" alt="...">
+                <div class="caption">
+                    <h3>Mary</h3>
+
+                    <button id="Mary" class="btn btn-default" onclick="GetPlayerNameMary()"value="Mary"> ADD </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Images/images (2).jpg" alt="...">
+                <div class="caption">
+                    <h3>Peter</h3>
+
+                    <button id="Peter" class="btn btn-default" onclick="GetPlayerNamePeter()" value="Peter"> ADD </button>  
+               </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="~/Images/images (5).jpg" alt="...">
+                    <div class="caption">
+                        <h3>Lisa</h3>
+
+                        <button id="Lisa" class="btn btn-default" onclick="GetPlayerNameLisa()" value="Lisa"> ADD </button>
+</div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="~/Images/images (3).jpg" alt="...">
+                    <div class="caption">
+                        <h3>David</h3>
+
+                        <button id="David" class="btn btn-default" onclick="GetPlayerNameDavid()" value="David"> ADD </button>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+
+<button class="btn btn-default" onclick="Next()">Clik Next</button>
+
+               
+    </div>                    
+                        
+                    
+                
+                  
+
+                

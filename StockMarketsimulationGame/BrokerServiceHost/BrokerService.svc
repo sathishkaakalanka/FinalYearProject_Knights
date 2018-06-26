@@ -1,1 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="BrokerServiceHost.BrokerService" CodeBehind="BrokerService.svc.cs" %>

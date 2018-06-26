@@ -6,22 +6,60 @@
       <xsd:import schemaLocation="http://localhost:1877/BrokerService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
     </xsd:schema>
   </wsdl:types>
-  <wsdl:message name="IBrokerService_checkwork_InputMessage">
-    <wsdl:part name="parameters" element="tns:checkwork" />
+  <wsdl:message name="IBrokerService_GetLoggedBroker_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLoggedBroker" />
   </wsdl:message>
-  <wsdl:message name="IBrokerService_checkwork_OutputMessage">
-    <wsdl:part name="parameters" element="tns:checkworkResponse" />
+  <wsdl:message name="IBrokerService_GetLoggedBroker_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLoggedBrokerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBrokerService_CreateNewBroker_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewBroker" />
+  </wsdl:message>
+  <wsdl:message name="IBrokerService_CreateNewBroker_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewBrokerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBrokerService_GetBrokerPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokerPassword" />
+  </wsdl:message>
+  <wsdl:message name="IBrokerService_GetBrokerPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokerPasswordResponse" />
   </wsdl:message>
   <wsdl:portType name="IBrokerService">
-    <wsdl:operation name="checkwork">
-      <wsdl:input wsaw:Action="http://tempuri.org/IBrokerService/checkwork" message="tns:IBrokerService_checkwork_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IBrokerService/checkworkResponse" message="tns:IBrokerService_checkwork_OutputMessage" />
+    <wsdl:operation name="GetLoggedBroker">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBrokerService/GetLoggedBroker" message="tns:IBrokerService_GetLoggedBroker_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBrokerService/GetLoggedBrokerResponse" message="tns:IBrokerService_GetLoggedBroker_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateNewBroker">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBrokerService/CreateNewBroker" message="tns:IBrokerService_CreateNewBroker_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBrokerService/CreateNewBrokerResponse" message="tns:IBrokerService_CreateNewBroker_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBrokerPassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBrokerService/GetBrokerPassword" message="tns:IBrokerService_GetBrokerPassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBrokerService/GetBrokerPasswordResponse" message="tns:IBrokerService_GetBrokerPassword_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IBrokerService" type="tns:IBrokerService">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="checkwork">
-      <soap:operation soapAction="http://tempuri.org/IBrokerService/checkwork" style="document" />
+    <wsdl:operation name="GetLoggedBroker">
+      <soap:operation soapAction="http://tempuri.org/IBrokerService/GetLoggedBroker" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateNewBroker">
+      <soap:operation soapAction="http://tempuri.org/IBrokerService/CreateNewBroker" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBrokerPassword">
+      <soap:operation soapAction="http://tempuri.org/IBrokerService/GetBrokerPassword" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

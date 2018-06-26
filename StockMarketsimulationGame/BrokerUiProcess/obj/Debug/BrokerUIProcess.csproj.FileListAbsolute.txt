@@ -48,3 +48,6 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUIProcess.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.pdb
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUIProcess.csprojResolveAssemblyReference.cache
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.pdb

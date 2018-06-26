@@ -33,8 +33,10 @@
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,20 +47,16 @@
   <ItemGroup>
     <Compile Include="LoggedBrokerUIProcess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\ServiceReference1\Reference.cs">
+    <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="ServiceClients\BrokerServiceClient.cs" />
-    <Compile Include="ServiceClients\EndpointBroker.cs" />
-    <Compile Include="ServiceClients\ServiceProxyBase.cs" />
+    <Compile Include="ServiceClient\BrokerServiceClient.cs" />
+    <Compile Include="ServiceClient\EndpointBroker.cs" />
+    <Compile Include="ServiceClient\ServiceProxyBaseBroker.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BrokerServiceHost\BrokerServiceHost.csproj">
-      <Project>{4d0da504-da99-4cf4-bad0-4f9b10b923a7}</Project>
-      <Name>BrokerServiceHost</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BusinessEntity\BusinessEntity.csproj">
       <Project>{e54fb519-f080-4f85-8e22-0d96b0ac5fa1}</Project>
       <Name>BusinessEntity</Name>
@@ -70,33 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Service References\ServiceReference1\BrokerService.wsdl" />
-    <None Include="Service References\ServiceReference1\BrokerService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceReference1\BrokerService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ServiceReference1\BrokerService.disco" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ServiceReference1\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

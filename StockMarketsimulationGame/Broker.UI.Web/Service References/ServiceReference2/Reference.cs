@@ -15,11 +15,23 @@ namespace Broker.UI.Web.ServiceReference2 {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference2.IBrokerService")]
     public interface IBrokerService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IBrokerService/checkwork", ReplyAction="http://tempuri.org/IBrokerService/checkworkResponse")]
-        string checkwork();
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IBrokerService/GetLoggedBroker", ReplyAction="http://tempuri.org/IBrokerService/GetLoggedBrokerResponse")]
+        bool GetLoggedBroker(string UserName, string Logged);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IBrokerService/checkwork", ReplyAction="http://tempuri.org/IBrokerService/checkworkResponse")]
-        System.Threading.Tasks.Task<string> checkworkAsync();
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IBrokerService/GetLoggedBroker", ReplyAction="http://tempuri.org/IBrokerService/GetLoggedBrokerResponse")]
+        System.Threading.Tasks.Task<bool> GetLoggedBrokerAsync(string UserName, string Logged);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IBrokerService/CreateNewBroker", ReplyAction="http://tempuri.org/IBrokerService/CreateNewBrokerResponse")]
+        bool CreateNewBroker(string username, string Email, string Password);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IBrokerService/CreateNewBroker", ReplyAction="http://tempuri.org/IBrokerService/CreateNewBrokerResponse")]
+        System.Threading.Tasks.Task<bool> CreateNewBrokerAsync(string username, string Email, string Password);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IBrokerService/GetBrokerPassword", ReplyAction="http://tempuri.org/IBrokerService/GetBrokerPasswordResponse")]
+        bool GetBrokerPassword(string UserName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IBrokerService/GetBrokerPassword", ReplyAction="http://tempuri.org/IBrokerService/GetBrokerPasswordResponse")]
+        System.Threading.Tasks.Task<bool> GetBrokerPasswordAsync(string UserName);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -49,12 +61,28 @@ namespace Broker.UI.Web.ServiceReference2 {
                 base(binding, remoteAddress) {
         }
         
-        public string checkwork() {
-            return base.Channel.checkwork();
+        public bool GetLoggedBroker(string UserName, string Logged) {
+            return base.Channel.GetLoggedBroker(UserName, Logged);
         }
         
-        public System.Threading.Tasks.Task<string> checkworkAsync() {
-            return base.Channel.checkworkAsync();
+        public System.Threading.Tasks.Task<bool> GetLoggedBrokerAsync(string UserName, string Logged) {
+            return base.Channel.GetLoggedBrokerAsync(UserName, Logged);
+        }
+        
+        public bool CreateNewBroker(string username, string Email, string Password) {
+            return base.Channel.CreateNewBroker(username, Email, Password);
+        }
+        
+        public System.Threading.Tasks.Task<bool> CreateNewBrokerAsync(string username, string Email, string Password) {
+            return base.Channel.CreateNewBrokerAsync(username, Email, Password);
+        }
+        
+        public bool GetBrokerPassword(string UserName) {
+            return base.Channel.GetBrokerPassword(UserName);
+        }
+        
+        public System.Threading.Tasks.Task<bool> GetBrokerPasswordAsync(string UserName) {
+            return base.Channel.GetBrokerPasswordAsync(UserName);
         }
     }
 }
