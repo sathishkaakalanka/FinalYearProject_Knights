@@ -30,3 +30,17 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\obj\Debug\BrokerBusinessBL.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\obj\Debug\BrokerBusinessBL.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\obj\Debug\BrokerBusinessBL.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\BrokerBusinessBL.dll.config
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\BrokerBusinessBL.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\BrokerBusinessBL.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\BrokerRepository.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\BusinessEntity.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\CommonBL.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\EntityFramework.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\BrokerRepository.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\BusinessEntity.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\CommonBL.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\bin\Debug\EntityFramework.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\obj\Debug\BrokerBusinessBL.csprojResolveAssemblyReference.cache
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\obj\Debug\BrokerBusinessBL.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerBusinessBL\obj\Debug\BrokerBusinessBL.pdb

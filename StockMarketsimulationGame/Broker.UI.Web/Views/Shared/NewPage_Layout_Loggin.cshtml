@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqwidgets")
+    @Scripts.Render("~/bundles/WinAlert")
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Loggin</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/WinAlert")
+
+</head>
+<body>
+    <div>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+                    @*<div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                <li>@Html.ActionLink("About", "About", "Home")</li>
+                                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            </ul>
+                        </div>*@
+                </div>
+            </div>
+        </div>
+        <div class="container body-content" @*style="background-color:white"*@>
+            <hr />
+            <div style="padding-bottom:225px">
+                @RenderBody()
+
+            </div>
+        </div>
+        <div style="clear: both; height: 50px; width: 100%; background-color:#fff; text-align: left; position: fixed; bottom: 0; z-index:9998;">
+            <p style="color: #000; margin-left: 115px; margin-top: 15px;">
+                @*© @DateTime.Now.Year All Rights Received.*@
+                @DateTime.Now.Year - Stock Market simulation Game v0.1 - <span style="color:red">Knites</span>
+            </p>
+        </div>
+    </div>
+
+    @Scripts.Render()
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryval")
+    @RenderSection("scripts", required: false)
+
+</body>
+
+</html>

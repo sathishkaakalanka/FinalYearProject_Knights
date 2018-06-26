@@ -1,7 +1,12 @@
 ﻿
 @{
     ViewBag.Title = "Analyst";
+<<<<<<< HEAD
     Layout = "~/Views/Shared/NewPage_Layout.cshtml";
+=======
+<<<<<<< HEAD
+    Layout = "~/Views/Shared/_Layout.cshtml";
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
 }
 <script src="~/Content/CanversJS/CanversJSGraphs.js"></script>
 <script>
@@ -67,6 +72,255 @@
             }]
         });
         chart.render();
+<<<<<<< HEAD
+=======
+=======
+    Layout = "~/Views/Shared/NewPage_Layout.cshtml";
+}
+
+
+<script>
+
+    $(document).ready(function () {
+    
+        $("#jqxwindowNewUser").jqxWindow({
+            height: 327,
+            //height: 'auto',
+            width: 460,
+            theme: 'energyblue',
+            autoOpen: false,
+            isModal: false,
+            resizable: false,
+            position: 'top, middle',
+        });
+        $("#Buy").jqxWindow({
+            height: 327,
+            //height: 'auto',
+            width: 460,
+            theme: 'energyblue',
+            autoOpen: false,
+            isModal: false,
+            resizable: false,
+            position: 'top, middle',
+        });
+        $("#Sale").jqxWindow({
+            height: 327,
+            //height: 'auto',
+            width: 460,
+            theme: 'energyblue',
+            autoOpen: false,
+            isModal: false,
+            resizable: false,
+            position: 'top, middle',
+        });
+    });
+    var index;
+    var buy = function () {
+        return '<div style="width: 100%" > <input type="image" img src="~/Images/download (10).jpg " /> </div>';
+    }
+    function CreatePieChatrGrid()
+    {
+  
+       var gridDataAdapter = new $.jqx.dataAdapter(GridSource);
+        var theme = "Energyblue";
+        $("#jqxTransactiondata").jqxGrid(
+        {
+
+            width: 500,
+            rowsheight: 45,
+            source: gridDataAdapter,
+            theme: theme,
+            autoheight: true,
+            showemptyrow: true,
+            enabletooltips: true,
+            pageable: true,
+            //pagesize: 8,
+            autoshowloadelement: false,
+            columns: [
+                { text: 'CompanyId', datafield: 'CompanyId', enabletooltips: true,hidden:true },
+                { text: 'Company Name', datafield: 'CompanyName', width: 200, enabletooltips: true },
+                { text: 'AvailablePercentage', datafield: 'AvailablePercentage', width: 70, enabletooltips: true },
+                { text: 'UnitPrice', datafield: 'UnitPrice', width: 100, enabletooltips: true },
+                { text: 'Buy', datafield: 'Buy', width: 50, cellsrenderer: buy, editable: false },
+                { text: 'Sale', datafield: 'Sale', width: 50, cellsrenderer: buy, editable: false },
+
+            ]
+        });
+        $("#jqxTransactiondata").on("cellclick", function (event) {
+            debugger;
+            var RowIndex = event.args.rowindex;
+            index = RowIndex
+            var columnindex = event.args.columnindex;
+            if (columnindex == 4) {
+                $("#Buy").jqxWindow('open');
+            }
+            if (columnindex == 5) {
+                $("#Sale").jqxWindow('open');
+            }
+        });
+    }
+   
+    function LoadTransactionGrid()
+    {
+        debugger;
+        var Sector = $("#SelectedSector").val();
+        url = '@Url.Action("GetCompaneyDetails", "Dashboard")';
+        $.post(url, { Id: Sector },
+                 function (data) {
+                     var Data = data.Items;
+                     for (var i = 0; i < Data.length; i++) {
+                         var rowData = GenerateEmptyRowData();
+                         var item = Data[i];
+                         rowData.CompanyId = item.CompanyId;
+                         rowData.CompanyName = item.CompanyName;
+                         rowData.AvailablePercentage = item.AvailablePercentage;
+                         rowData.UnitPrice = item.UnitPrice;
+                         $("#jqxTransactiondata").jqxGrid('addrow', null, rowData);
+                     }
+                 }).fail(function (ev) {
+                 });
+        
+    }
+    function NewUserLogin() {
+        $("#jqxwindowNewUser").jqxWindow('open');
+        CreatePieChatrGrid();
+        LoadTransactionGrid();
+    }
+   @*function LoadPiechart() {
+       debugger;
+       var Sector = $("#SelectedSector").val();
+        url = '@Url.Action("GetCompaneyDetails", "Dashboard")';
+       $.post(url, { Id: Sector },
+                function (data) {
+                    var Data = Data.Items;
+                    for (var i = 0; i < Data.length; i++) {
+                        var rowData = GenerateEmptyRowData();
+                        var item = Data[i];
+                        rowData.CompanyId = item.CompanyId;
+                        rowData.CompanyName = item.CompanyName;
+                        rowData.AvailablePercentage = item.AvailablePercentage;
+                        rowData.UnitPrice = item.UnitPrice;
+                        rowData.PreviousUnitPrice = item.PreviousUnitPrice;
+                        rowData.CreatedDate = item.CreatedDate;
+                        rowData.SectorId = item.SectorId;
+                        rowData.SectorName = item.SectorName;
+
+                        $("#jqxpiechartdata").jqxGrid('addrow', null, rowData);
+                    }
+                }).fail(function (ev) {
+                });
+   }*@
+    function GenerateEmptyRowData() {
+        var row = {};
+        row["Code"] = "";
+        return row;
+    }
+    var GridSource = {
+        datatype: "json",
+        localdata: []
+    };
+    function Buy()
+    {
+        debugger;
+      //  var rowIndex = event.args.rowindex;
+        var data = $('#jqxTransactiondata').jqxGrid('getrowdata', index);
+        var Bought = $("#NumberOfSheires").val();
+        if (data.AvailablePercentage >= Bought) {
+                var Price = data.UnitPrice * Bought;
+            if ('@ViewBag.Money' >= Price) {
+                url = '@Url.Action("GetBuyDetails", "Dashboard")';
+                $.post(url, { Price: Price, },
+                         function (data) {
+                         }).fail(function (ev) {
+                         });
+            }
+        }
+    }
+    function sale() {
+       // var rowIndex = event.args.rowindex;
+        var data = $('#jqxTransactiondata').jqxGrid('getrowdata', RowIndex);
+        var Sale = $("#NumberOfSheiressale").val();
+        if (data.AvailablePercentage >= Bought) {
+            if ('@ViewBag.Money')
+                var Price = data.UnitPrice * Bought;
+            if ('@ViewBag.Money' >= Price) {
+                url = '@Url.Action("GetBuyDetails", "Dashboard")';
+                $.post(url, { Price: Price },
+                         function (data) {
+                         }).fail(function (ev) {
+                         });
+            }
+        }
+    }
+    //window.onload = function () {
+
+
+    //    var chart = new CanvasJS.Chart("chartContainer", {
+    //        animationEnabled: true,
+    //        theme: "light1", // "light1", "light2", "dark1", "dark2"
+    //        title: {
+    //            text: "Current Broker Success 1"
+    //        },
+    //        data: [{
+    //            type: "column", //change type to bar, line, area, pie, etc
+    //            //indexLabel: "{y}", //Shows y value on all Data Points
+    //            indexLabelFontColor: "#5A5757",
+    //            indexLabelPlacement: "outside",
+    //            dataPoints: [
+    //                { x: 10, y: 71 },
+    //                { x: 20, y: 55 },
+    //                { x: 30, y: 50 },
+    //                { x: 40, y: 65 },
+    //                { x: 50, y: 92, indexLabel: "Highest" },
+    //                { x: 60, y: 68 },
+    //                { x: 70, y: 38 },
+    //                { x: 80, y: 71 },
+    //                { x: 90, y: 54 },
+    //                { x: 100, y: 60 },
+    //                { x: 110, y: 36 },
+    //                { x: 120, y: 49 },
+    //                { x: 130, y: 21, indexLabel: "Lowest" }
+    //            ]
+    //        }]
+    //    });
+    //    chart.render();
+
+    //    var chart = new CanvasJS.Chart("chartContainer2", {
+    //        animationEnabled: true,
+    //        theme: "light1", // "light1", "light2", "dark1", "dark2"
+    //        title: {
+    //            text: "Current Broker Success 2"
+    //        },
+    //        data: [{
+    //            type: "pie", //change type to bar, line, area, pie, etc
+    //            //indexLabel: "{y}", //Shows y value on all Data Points
+    //            indexLabelFontColor: "#5A5757",
+    //            indexLabelPlacement: "outside",
+    //            dataPoints: [
+    //                { x: 10, y: 81 },
+    //                { x: 20, y: 155, indexLabel: "Highest" },
+    //                { x: 30, y: 50 },
+    //                { x: 40, y: 55 },
+    //                { x: 50, y: 92 },
+    //                { x: 60, y: 69 },
+    //                { x: 70, y: 40 },
+    //                { x: 80, y: 71 },
+    //                { x: 90, y: 54 },
+    //                { x: 100, y: 60 },
+    //                { x: 110, y: 136 },
+    //                { x: 120, y: 49 },
+    //                { x: 130, y: 22, indexLabel: "Lowest" }
+    //            ]
+    //        }]
+    //    });
+    //    chart.render();
+    //}
+    function Next() {
+        var editUrl = '@Url.Action("Index", "Dashboard")';
+        window.location = editUrl;
+
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
     }
     </script>
 <!--main content start-->
@@ -91,5 +345,68 @@
         </div>
     </section>
 </section>
+<<<<<<< HEAD
 <button></button>
 <!--main content end-->
+=======
+<<<<<<< HEAD
+<button></button>
+<!--main content end-->
+=======
+<table id="DetailTable" style="width:100%;margin-left:5%;margin-right:5%;color:#020406">
+    <tr>
+        <td style="width:250px">
+            @Html.Label("Sector", new { @class = "control-label col-sm-9", @style = "text-align:left; max-width:350px" })
+        </td>
+        <td>
+            @Html.DropDownList("Sector", (List<SelectListItem>)@ViewBag.Sectors,"", new { @class = "form-control", @id = "SelectedSector", @style = "max-width:900px" })
+        </td>
+    </tr>
+   
+</table>
+<button onclick="NewUserLogin()">jhjhfsaiufh</button>
+<div id='jqxwindowNewUser'>
+    <div class="jqxWidget">
+        <div id="jqxTransactiondata"></div>
+    </div>
+</div>
+<div id='Buy'>
+ <table>
+     <tr>
+         <td>
+             @Html.Label("Number Of Sheires", new { @class = "control-label col-sm-9", @style = "text-align:left; max-width:350px" })
+         </td>
+         <td>
+             @Html.TextBox("buy", "", new { @class = "form-control", @id = "NumberOfSheires", @style = "max-width:900px" })
+         </td>
+     </tr>
+ </table>
+           <button onclick="Buy()">
+               ffff
+           </button>    
+</div>
+<div id='Sale'>
+    <table>
+        <tr>
+            <td>
+                @Html.Label("Number Of Sheires", new { @class = "control-label col-sm-9", @style = "text-align:left; max-width:350px" })
+            </td>
+            <td>
+                @Html.TextBox("sale", "", new { @class = "form-control", @id = "NumberOfSheiressale", @style = "max-width:900px" })
+            </td>
+        </tr>
+    </table>
+    <button onclick="Sale">
+        ffff
+    </button>
+</div>
+<button onclick="Next()">
+    index
+</button>
+    <!--main content end-->
+    <script src="~/Content/CanversJS/CanversJSGraphs.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/JQWidgets")
+    @Styles.Render("~/Content/CSS")
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc

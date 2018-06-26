@@ -1,0 +1,33 @@
+Project Code deployment
+1.	Database table classes
+Common--- BusinessEntities---- Entities
+
+2.	Database class
+Common--- BusinessEntities---- StockMarket.cs
+
+3.	UI
+Invester--- Presantation----- Web---- StockMarketsimulationGame----Views
+Broker--- Presantation----- Web---- Broker.UI.Web----Views
+
+4.	Linq queries
+ Invester--- Data
+ Broker --- Data
+Common----Data
+
+5.	Wcf services
+Invester--- Host---- InvestorServiceHost----IInvestor / Investor
+Broker--- Host ----- InvestorServiceHost ----IBroker /Broker
+
+6.	Controllers
+Invester--- Presantation----- Web---- StockMarketsimulationGame---- Controller
+Broker--- Presantation----- Web---- Broker.UI.Web---- Controllers
+
+7.	UIProcess
+Invester--- Presantation--- UIProcess
+ Broker --- Presantation--- UIProcess
+
+8.	BusinessBL
+Invester--- BusinessBL
+ Broker --- BusinessBL
+Common-- BusinessBL
+

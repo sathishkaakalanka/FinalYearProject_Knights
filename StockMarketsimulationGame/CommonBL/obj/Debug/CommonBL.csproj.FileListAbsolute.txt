@@ -8,6 +8,13 @@ C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\Co
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.dll
 C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\CommonBL.dll.config
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\CommonBL.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\CommonBL.pdb
@@ -22,3 +29,21 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\CommonBL.dll.config
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\CommonBL.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\CommonBL.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\EntityFramework.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\EntityFramework.SqlServer.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\EntityFramework.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\bin\Debug\EntityFramework.SqlServer.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.csprojResolveAssemblyReference.cache
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\CommonBL\obj\Debug\CommonBL.pdb
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc

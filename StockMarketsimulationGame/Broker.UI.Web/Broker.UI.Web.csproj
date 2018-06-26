@@ -164,15 +164,28 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
     <Compile Include="Service References\ServiceReference2\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+=======
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
     <Content Include="Content\jqx.android.css" />
     <Content Include="Content\jqx.arctic.css" />
     <Content Include="Content\jqx.base.css" />
@@ -206,6 +219,15 @@
     <Content Include="Content\jqx.web.css" />
     <Content Include="Content\jqx.windowsphone.css" />
     <Content Include="Content\CanversJS\CanversJSGraphs.js" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    <Content Include="Content\CanversJSGraphs.js" />
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -337,6 +359,10 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
     <None Include="Service References\ServiceReference2\BrokerService.disco" />
     <None Include="Service References\ServiceReference2\configuration91.svcinfo" />
     <None Include="Service References\ServiceReference2\configuration.svcinfo" />
@@ -344,6 +370,8 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+=======
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -355,8 +383,27 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\BrokerHome\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\BrokerDashboard\Index.cshtml" />
     <Content Include="Views\Shared\Page_Layout_Loggin.cshtml" />
+=======
+<<<<<<< HEAD
+    <Content Include="Views\BrokerDashboard\Index.cshtml" />
+    <Content Include="Views\Shared\Page_Layout_Loggin.cshtml" />
+=======
+<<<<<<< HEAD
+    <Content Include="Views\BrokerDashboard\Index.cshtml" />
+    <Content Include="Views\Shared\Page_Layout_Loggin.cshtml" />
+=======
+    <None Include="Service References\ServiceReference1\service.wsdl" />
+    <None Include="Service References\ServiceReference1\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
     <None Include="Service References\ServiceReference2\BrokerService.wsdl" />
     <None Include="Service References\ServiceReference2\BrokerService.xsd">
       <SubType>Designer</SubType>
@@ -364,6 +411,10 @@
     <None Include="Service References\ServiceReference2\BrokerService1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="Views\BrokerHome\Broker_Details.cshtml" />
+    <Content Include="Views\Shared\NewPage_Layout.cshtml" />
+    <Content Include="Views\Shared\NewPage_Layout_Loggin.cshtml" />
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -378,9 +429,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BrokerUiProcess\BrokerUIProcess.csproj">
-      <Project>{a2a0e96a-fc2b-4465-aa61-04736863f1a9}</Project>
-      <Name>BrokerUIProcess</Name>
+    <ProjectReference Include="..\BrokerBusinessBL\BrokerBusinessBL.csproj">
+      <Project>{7961d744-9f6e-44dc-97f0-3cf11aa88f6b}</Project>
+      <Name>BrokerBusinessBL</Name>
     </ProjectReference>
     <ProjectReference Include="..\BusinessEntity\BusinessEntity.csproj">
       <Project>{e54fb519-f080-4f85-8e22-0d96b0ac5fa1}</Project>
@@ -394,9 +445,12 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\ServiceReference2\" />
   </ItemGroup>
+=======
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

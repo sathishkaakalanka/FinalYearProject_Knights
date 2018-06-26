@@ -9,10 +9,29 @@ namespace Broker.UI.Web
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
                         "~/Scripts/jquery-{version}.js",
                         //"~/Scripts/jquery-1.10.2.intellisense.js",
                         "~/Scripts/jquery-1.10.2.js",
                         "~/Scripts/jquery-1.10.2.min.js"));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                          "~/Scripts/jquery-{version}.js",
+                          //"~/Scripts/jquery-1.10.2.intellisense.js",
+                          "~/Scripts/jquery-1.10.2.js",
+                          "~/Scripts/jquery-1.10.2.min.js"));
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*",
@@ -42,12 +61,33 @@ namespace Broker.UI.Web
             bundles.Add(new StyleBundle("~/Content/css").Include(
                        "~/Content/bootstrap.css",
                        "~/Content/bootstrap.min.css",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
                        "~/Content/jqx.android.css",
                        "~/Content/jqx.arctic.css",
                        "~/Content/jqx.base.css",
                        "~/Content/jqx.blackberry.css",
                        "~/Content/jqx.black.css",
                        "~/Content/jqx.bootstrap.css",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                        "~/Content/jqx.android.css",
+                 "~/Content/jqx.arctic.css",
+                 "~/Content/jqx.base.css",
+                 "~/Content/jqx.blackberry.css",
+                 "~/Content/jqx.black.css",
+                 "~/Content/jqx.bootstrap.css",
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6
+>>>>>>> edc4a44a78fea64be4965cd3b467230c358810bc
                  "~/Content/jqx.classic.css",
                  "~/Content/jqx.dark.css",
                  "~/Content/jqx.darkblue.css",
