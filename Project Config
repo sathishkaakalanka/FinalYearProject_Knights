@@ -1,0 +1,8 @@
+project configuration
+1.	Use sql server authentication Restore given sql backup file which contain all master data.
+2.	Then simply press ctrl+F and type connectionstring.
+3.	Change server name “ASSUS-PC “  to your sql server name.
+4.	My login is sa and password 123
+5.	If login and password same, you just have to change server name only.
+
+
