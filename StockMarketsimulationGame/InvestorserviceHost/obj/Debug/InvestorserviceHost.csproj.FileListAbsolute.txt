@@ -56,3 +56,32 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.pdb
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\ApplicationInsights.config
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.dll.config
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.pdb
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessBL.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.SqlServer.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Web.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessEntity.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Repositories.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessBL.pdb
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.xml
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.SqlServer.xml
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Web.xml
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessEntity.pdb
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Repositories.pdb
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.csprojResolveAssemblyReference.cache
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.dll
+C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.pdb

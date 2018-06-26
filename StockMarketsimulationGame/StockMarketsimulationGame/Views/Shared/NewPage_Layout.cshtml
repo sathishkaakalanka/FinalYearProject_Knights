@@ -32,9 +32,13 @@
     </div>
 
 
-    <div class="container body-content">
-        @RenderBody()
+    <div @*class="container body-content"*@>
         <hr />
+        <div style="padding-bottom:225px">
+            @RenderBody()
+
+        </div>
+    
         <footer style="">
             <p style="margin-top:72%;margin-left:-25%">&copy; @DateTime.Now.Year - Stock Market simulation Game v0.1 - <span style="color:red">Knites</span></p>
         </footer>

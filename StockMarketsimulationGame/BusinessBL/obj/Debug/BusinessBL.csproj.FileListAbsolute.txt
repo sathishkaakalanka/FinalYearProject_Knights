@@ -19,11 +19,13 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessBL.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessEntity.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\CommonBL.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\CommonRepositorie.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\Repositories.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\BusinessEntity.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\CommonBL.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\CommonRepositorie.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\Repositories.pdb
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.xml
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BusinessBL\bin\Debug\EntityFramework.SqlServer.xml

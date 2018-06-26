@@ -18,7 +18,7 @@ namespace UIProcess
         {
             return Channel.GetLoggedUser(UserName, Logged);
         }
-       public bool CreateNewUser(string username, string Email, string Password)
+        public bool CreateNewUser(string username, string Email, string Password)
         {
             return Channel.CreateNewUser(username, Email, Password);
         }

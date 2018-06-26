@@ -65,6 +65,10 @@
       <Project>{29deae61-5169-48e1-81ca-974729bd97e8}</Project>
       <Name>CommonBL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CommonRepositorie\CommonRepository.csproj">
+      <Project>{92b4a973-db16-424f-a941-1f8a5b0d3c4d}</Project>
+      <Name>CommonRepository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Repositories\Repositories.csproj">
       <Project>{003b1ded-1d96-49d9-b61c-729cd6427912}</Project>
       <Name>Repositories</Name>

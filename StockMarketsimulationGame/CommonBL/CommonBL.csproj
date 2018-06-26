@@ -56,6 +56,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessEntity\BusinessEntity.csproj">
+      <Project>{E54FB519-F080-4F85-8E22-0D96B0AC5FA1}</Project>
+      <Name>BusinessEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonRepositorie\CommonRepository.csproj">
+      <Project>{92B4A973-DB16-424F-A941-1F8A5B0D3C4D}</Project>
+      <Name>CommonRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
