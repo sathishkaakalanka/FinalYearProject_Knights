@@ -48,6 +48,34 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUIProcess.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.pdb
+<<<<<<< HEAD
 C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUIProcess.csprojResolveAssemblyReference.cache
 C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.dll
 C:\Users\HelloWorld\Desktop\suura pappa\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.pdb
+=======
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\ApplicationInsights.config
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BrokerUiProcess.dll.config
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BrokerUiProcess.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BrokerUiProcess.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BrokerServiceHost.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BusinessEntity.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\UIProcess.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BrokerBusinessBL.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\EntityFramework.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\InvestorserviceHost.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BrokerRepository.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BusinessBL.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\Repositories.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BrokerServiceHost.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BusinessEntity.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\UIProcess.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BrokerBusinessBL.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\EntityFramework.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\InvestorserviceHost.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BrokerRepository.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\BusinessBL.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\bin\Debug\Repositories.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUIProcess.csprojResolveAssemblyReference.cache
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerUiProcess\obj\Debug\BrokerUiProcess.pdb
+>>>>>>> 59c751f50057a435c080c6a1d406702026bff2b6

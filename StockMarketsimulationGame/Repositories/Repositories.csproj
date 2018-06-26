@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LoggedUserRepository.cs" />
-    <Compile Include="BrokerRepository.cs" />
+    <Compile Include="TransactionRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

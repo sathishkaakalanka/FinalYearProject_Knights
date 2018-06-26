@@ -1,42 +1,109 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+
+    <title>@ViewBag.Final Year Project</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="~/css/bootstrap-theme.css" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="~/css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/style-responsive.css" rel="stylesheet" />
+    <link href="~/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    <!-- container section start -->
+    <section id="container" class="">
+
+
+        <header class="header dark-bg">
+            <!--  <div class="toggle-nav">
+                   <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+               </div>
+
+               <!--logo start-->
+            <a class="logo" href="@Url.Action("index", null, new { area = string.Empty, controller = "BrokerHome" }, Request.Url.Scheme)">
+                Stock Market <span class="lite"> Game</span>
+            </a>
+            <!--logo end-->
+        </header>
+        <!--header end-->
+        <!--sidebar start-->
+        <aside>
+            <div id="sidebar" class="nav-collapse ">
+                <!-- sidebar menu start-->
+                <ul class="sidebar-menu">
+                    <li>
+                        <a class="" href="@Url.Action("index", null, new { area = string.Empty, controller = "BrokerHome" }, Request.Url.Scheme)">
+                            <i class="icon_house_alt"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="@Url.Action("Broker_Details", "BrokerHome", new { area = string.Empty, controller = "BrokerHome" }, Request.Url.Scheme)">
+                            <i class="icon_profile"></i>
+                            <span>Broker</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="@Url.Action("NewPage_Layout_Loggin", "Shared", new { area = string.Empty, controller = "Shared" }, Request.Url.Scheme)">
+                            <i class="icon_close_alt"></i>
+                            <span>Log Out</span>
+                        </a>
+                    </li>
                 </ul>
+                <!-- sidebar menu end-->
             </div>
-        </div>
-    </div>
+        </aside>
+        <!--sidebar end-->
+
+    </section>
+    <!-- container section start -->
+
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
 
+    <!-- javascripts -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-ui-1.10.4.min.js"></script>
+    <script src="/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="~/Content/CanversJSGraphs.js"></script>
+    <!-- nice scroll -->
+    <script src="/js/jquery.scrollTo.min.js"></script>
+    <script src="/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <!-- charts scripts -->
+    <script src="/assets/jquery-knob/js/jquery.knob.js"></script>
+    <script src="/js/jquery.sparkline.js" type="text/javascript"></script>
+    <!--script for this page only-->
+    <script src="/js/jquery.rateit.min.js"></script>
+    <!-- custom select -->
+    <script src="/js/jquery.customSelect.min.js"></script>
+    <!--custome script for all page-->
+    <script src="/js/scripts.js"></script>
+    <!-- custom script for this page-->
+    <script src="/js/jquery.autosize.min.js"></script>
+    <script src="/js/jquery.placeholder.min.js"></script>
+    <script src="/js/gdp-data.js"></script>
+    <script src="/js/morris.min.js"></script>
+    <script src="/js/sparklines.js"></script>
+    <script src="/js/jquery.slimscroll.min.js"></script>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>
+
