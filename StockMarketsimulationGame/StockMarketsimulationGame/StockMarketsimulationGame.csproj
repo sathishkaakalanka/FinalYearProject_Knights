@@ -388,6 +388,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\download %2810%29.jpg" />
+    <Content Include="Images\images %281%29.jpg" />
+    <Content Include="Images\images %282%29.jpg" />
+    <Content Include="Images\images %283%29.jpg" />
+    <Content Include="Images\images %284%29.jpg" />
+    <Content Include="Images\images %285%29.jpg" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -542,7 +548,9 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
@@ -550,7 +558,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\NewPage_Layout.cshtml" />
     <Content Include="Views\Shared\NewPage_Layout_Loggin.cshtml" />
-    <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\Dashboard\index.cshtml" />
     <Content Include="Views\UnauthorizedUser\Index.cshtml" />
     <None Include="Service References\ServiceReference1\InvestorService.wsdl" />
     <None Include="Service References\ServiceReference1\InvestorService.xsd">
@@ -559,6 +567,17 @@
     <None Include="Service References\ServiceReference1\InvestorService1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="Views\Dashboard\Analyst.cshtml" />
+<<<<<<< HEAD
+    <Content Include="Views\Dashboard\Transaction.cshtml" />
+    <Content Include="Views\Dashboard\Player.cshtml" />
+    <Content Include="Views\Shared\Dashboard_Layout.cshtml" />
+=======
+    <Content Include="Views\Dashboard\Player.cshtml" />
+    <Content Include="Views\Dashboard\Player2.cshtml" />
+    <Content Include="Views\Dashboard\Player3.cshtml" />
+    <Content Include="Views\Dashboard\Broker.cshtml" />
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -568,18 +587,20 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BusinessBL\BusinessBL.csproj">
+      <Project>{cf8f45a8-b56a-4169-8b65-f4dfe80aa045}</Project>
+      <Name>BusinessBL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BusinessEntity\BusinessEntity.csproj">
       <Project>{e54fb519-f080-4f85-8e22-0d96b0ac5fa1}</Project>
       <Name>BusinessEntity</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\UIProcess\UIProcess.csproj">
-      <Project>{be22d454-897e-4c0c-ad9a-be0e3f6d107e}</Project>
-      <Name>UIProcess</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

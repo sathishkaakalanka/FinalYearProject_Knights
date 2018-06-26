@@ -44,6 +44,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -150,25 +158,49 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BrokerDashboardController.cs" />
     <Compile Include="Controllers\BrokerHomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\ServiceReference1\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="Service References\ServiceReference2\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\jqx.android.css" />
+    <Content Include="Content\jqx.arctic.css" />
+    <Content Include="Content\jqx.base.css" />
+    <Content Include="Content\jqx.black.css" />
+    <Content Include="Content\jqx.blackberry.css" />
+    <Content Include="Content\jqx.bootstrap.css" />
+    <Content Include="Content\jqx.classic.css" />
+    <Content Include="Content\jqx.dark.css" />
+    <Content Include="Content\jqx.darkblue.css" />
+    <Content Include="Content\jqx.energyblue.css" />
+    <Content Include="Content\jqx.flat.css" />
+    <Content Include="Content\jqx.fresh.css" />
+    <Content Include="Content\jqx.glacier.css" />
+    <Content Include="Content\jqx.highcontrast.css" />
+    <Content Include="Content\jqx.light.css" />
+    <Content Include="Content\jqx.metro.css" />
+    <Content Include="Content\jqx.metrodark.css" />
+    <Content Include="Content\jqx.mobile.css" />
+    <Content Include="Content\jqx.office.css" />
+    <Content Include="Content\jqx.orange.css" />
+    <Content Include="Content\jqx.shinyblack.css" />
+    <Content Include="Content\jqx.summer.css" />
+    <Content Include="Content\jqx.ui-darkness.css" />
+    <Content Include="Content\jqx.ui-le-frog.css" />
+    <Content Include="Content\jqx.ui-lightness.css" />
+    <Content Include="Content\jqx.ui-overcast.css" />
+    <Content Include="Content\jqx.ui-redmond.css" />
+    <Content Include="Content\jqx.ui-smoothness.css" />
+    <Content Include="Content\jqx.ui-start.css" />
+    <Content Include="Content\jqx.ui-sunny.css" />
+    <Content Include="Content\jqx.web.css" />
+    <Content Include="Content\jqx.windowsphone.css" />
+    <Content Include="Content\CanversJS\CanversJSGraphs.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -181,6 +213,20 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\globalize.culture.cs-CZ.js" />
+    <Content Include="Scripts\globalize.culture.de-DE.js" />
+    <Content Include="Scripts\globalize.culture.en-CA.js" />
+    <Content Include="Scripts\globalize.culture.en-US.js" />
+    <Content Include="Scripts\globalize.culture.fr-FR.js" />
+    <Content Include="Scripts\globalize.culture.he-IL.js" />
+    <Content Include="Scripts\globalize.culture.hr-HR.js" />
+    <Content Include="Scripts\globalize.culture.hu-HU.js" />
+    <Content Include="Scripts\globalize.culture.it-IT.js" />
+    <Content Include="Scripts\globalize.culture.ja-JP.js" />
+    <Content Include="Scripts\globalize.culture.lt.js" />
+    <Content Include="Scripts\globalize.culture.ru-RU.js" />
+    <Content Include="Scripts\globalize.culture.sa-IN.js" />
+    <Content Include="Scripts\globalize.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -188,23 +234,104 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jqx-all.js" />
+    <Content Include="Scripts\jqxangular.js" />
+    <Content Include="Scripts\jqxbargauge.js" />
+    <Content Include="Scripts\jqxbulletchart.js" />
+    <Content Include="Scripts\jqxbuttongroup.js" />
+    <Content Include="Scripts\jqxbuttons.js" />
+    <Content Include="Scripts\jqxcalendar.js" />
+    <Content Include="Scripts\jqxchart.annotations.js" />
+    <Content Include="Scripts\jqxchart.api.js" />
+    <Content Include="Scripts\jqxchart.core.js" />
+    <Content Include="Scripts\jqxchart.js" />
+    <Content Include="Scripts\jqxchart.rangeselector.js" />
+    <Content Include="Scripts\jqxchart.waterfall.js" />
+    <Content Include="Scripts\jqxcheckbox.js" />
+    <Content Include="Scripts\jqxcolorpicker.js" />
+    <Content Include="Scripts\jqxcombobox.js" />
+    <Content Include="Scripts\jqxcomplexinput.js" />
+    <Content Include="Scripts\jqxcore.elements.js" />
+    <Content Include="Scripts\jqxcore.js" />
+    <Content Include="Scripts\jqxdata.export.js" />
+    <Content Include="Scripts\jqxdata.js" />
+    <Content Include="Scripts\jqxdatatable.js" />
+    <Content Include="Scripts\jqxdate.js" />
+    <Content Include="Scripts\jqxdatetimeinput.js" />
+    <Content Include="Scripts\jqxdocking.js" />
+    <Content Include="Scripts\jqxdockinglayout.js" />
+    <Content Include="Scripts\jqxdockpanel.js" />
+    <Content Include="Scripts\jqxdragdrop.js" />
+    <Content Include="Scripts\jqxdraw.js" />
+    <Content Include="Scripts\jqxdropdownbutton.js" />
+    <Content Include="Scripts\jqxdropdownlist.js" />
+    <Content Include="Scripts\jqxeditor.js" />
+    <Content Include="Scripts\jqxexpander.js" />
+    <Content Include="Scripts\jqxfileupload.js" />
+    <Content Include="Scripts\jqxformattedinput.js" />
+    <Content Include="Scripts\jqxgauge.js" />
+    <Content Include="Scripts\jqxgrid.aggregates.js" />
+    <Content Include="Scripts\jqxgrid.columnsreorder.js" />
+    <Content Include="Scripts\jqxgrid.columnsresize.js" />
+    <Content Include="Scripts\jqxgrid.edit.js" />
+    <Content Include="Scripts\jqxgrid.export.js" />
+    <Content Include="Scripts\jqxgrid.filter.js" />
+    <Content Include="Scripts\jqxgrid.grouping.js" />
+    <Content Include="Scripts\jqxgrid.js" />
+    <Content Include="Scripts\jqxgrid.pager.js" />
+    <Content Include="Scripts\jqxgrid.selection.js" />
+    <Content Include="Scripts\jqxgrid.sort.js" />
+    <Content Include="Scripts\jqxgrid.storage.js" />
+    <Content Include="Scripts\jqxinput.js" />
+    <Content Include="Scripts\jqxkanban.js" />
+    <Content Include="Scripts\jqxknob.js" />
+    <Content Include="Scripts\jqxknockout.js" />
+    <Content Include="Scripts\jqxlayout.js" />
+    <Content Include="Scripts\jqxlistbox.js" />
+    <Content Include="Scripts\jqxlistmenu.js" />
+    <Content Include="Scripts\jqxloader.js" />
+    <Content Include="Scripts\jqxmaskedinput.js" />
+    <Content Include="Scripts\jqxmenu.js" />
+    <Content Include="Scripts\jqxnavbar.js" />
+    <Content Include="Scripts\jqxnavigationbar.js" />
+    <Content Include="Scripts\jqxnotification.js" />
+    <Content Include="Scripts\jqxnumberinput.js" />
+    <Content Include="Scripts\jqxpanel.js" />
+    <Content Include="Scripts\jqxpasswordinput.js" />
+    <Content Include="Scripts\jqxpivot.js" />
+    <Content Include="Scripts\jqxpivotdesigner.js" />
+    <Content Include="Scripts\jqxpivotgrid.js" />
+    <Content Include="Scripts\jqxpopover.js" />
+    <Content Include="Scripts\jqxprogressbar.js" />
+    <Content Include="Scripts\jqxradiobutton.js" />
+    <Content Include="Scripts\jqxrangeselector.js" />
+    <Content Include="Scripts\jqxrating.js" />
+    <Content Include="Scripts\jqxresponse.js" />
+    <Content Include="Scripts\jqxresponsivepanel.js" />
+    <Content Include="Scripts\jqxribbon.js" />
+    <Content Include="Scripts\jqxscheduler.api.js" />
+    <Content Include="Scripts\jqxscheduler.js" />
+    <Content Include="Scripts\jqxscrollbar.js" />
+    <Content Include="Scripts\jqxscrollview.js" />
+    <Content Include="Scripts\jqxslider.js" />
+    <Content Include="Scripts\jqxsortable.js" />
+    <Content Include="Scripts\jqxsplitter.js" />
+    <Content Include="Scripts\jqxswitchbutton.js" />
+    <Content Include="Scripts\jqxtabs.js" />
+    <Content Include="Scripts\jqxtagcloud.js" />
+    <Content Include="Scripts\jqxtextarea.js" />
+    <Content Include="Scripts\jqxtoolbar.js" />
+    <Content Include="Scripts\jqxtooltip.js" />
+    <Content Include="Scripts\jqxtouch.js" />
+    <Content Include="Scripts\jqxtree.js" />
+    <Content Include="Scripts\jqxtreegrid.js" />
+    <Content Include="Scripts\jqxtreemap.js" />
+    <Content Include="Scripts\jqxvalidator.js" />
+    <Content Include="Scripts\jqxwindow.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
-    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
-    <None Include="Service References\ServiceReference1\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <None Include="Service References\ServiceReference2\BrokerService.disco" />
-    <None Include="Service References\ServiceReference2\configuration91.svcinfo" />
-    <None Include="Service References\ServiceReference2\configuration.svcinfo" />
-    <None Include="Service References\ServiceReference2\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -216,20 +343,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\BrokerHome\Index.cshtml" />
-    <None Include="Service References\ServiceReference1\service.wsdl" />
-    <None Include="Service References\ServiceReference1\service.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceReference1\service1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceReference2\BrokerService.wsdl" />
-    <None Include="Service References\ServiceReference2\BrokerService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceReference2\BrokerService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
+    <Content Include="Views\BrokerDashboard\Index.cshtml" />
+    <Content Include="Views\Shared\Page_Layout_Loggin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -244,9 +359,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BrokerUiProcess\BrokerUIProcess.csproj">
-      <Project>{a2a0e96a-fc2b-4465-aa61-04736863f1a9}</Project>
-      <Name>BrokerUIProcess</Name>
+    <ProjectReference Include="..\BrokerBusinessBL\BrokerBusinessBL.csproj">
+      <Project>{7961d744-9f6e-44dc-97f0-3cf11aa88f6b}</Project>
+      <Name>BrokerBusinessBL</Name>
     </ProjectReference>
     <ProjectReference Include="..\BusinessEntity\BusinessEntity.csproj">
       <Project>{e54fb519-f080-4f85-8e22-0d96b0ac5fa1}</Project>
@@ -259,10 +374,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
-    <WCFMetadataStorage Include="Service References\ServiceReference2\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

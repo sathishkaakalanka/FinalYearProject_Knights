@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using UIProcess;
+using BusinessBL;
 
 namespace StockMarketsimulationGame.Controllers
 {
@@ -17,10 +17,10 @@ namespace StockMarketsimulationGame.Controllers
         public ActionResult UserLogin(string UserName, string Logged)
         {
 
-            var LoggedUser = new LoggedUserUIProcess().GetLoggedUser(UserName, Logged);
+            var LoggedUser = new LoggedUserBL().GetLoggedUser(UserName, Logged);
             if (LoggedUser == true)
             {
-                return RedirectToAction("Index", "Dashboard");
+                return RedirectToAction("Player", "Dashboard");
             }
             else
             {
@@ -32,7 +32,7 @@ namespace StockMarketsimulationGame.Controllers
         public ActionResult CreateNewUser(string username, string Email, string Password)
         {
           
-            var LoggedUser = new LoggedUserUIProcess().CreateNewUser(username, Email, Password);
+            var LoggedUser = new LoggedUserBL().CreateNewUser(username, Email, Password);
             string Message;
             if (LoggedUser == false)
             {
@@ -46,7 +46,7 @@ namespace StockMarketsimulationGame.Controllers
         }
         public ActionResult GetUserPassword(string UserName)
         {
-            var Getpassword = new LoggedUserUIProcess().GetUserPassword(UserName);
+            var Getpassword = new LoggedUserBL().GetUserPassword(UserName);
 
             return Json(Getpassword);
         }
@@ -65,5 +65,10 @@ namespace StockMarketsimulationGame.Controllers
         //        throw new Exception("Error in base64Encode" + ex.Message);
         //    }
         //}
+
+        public ActionResult NewPage_Layout_Loggin()
+        {
+            return View();
+        }
     }
 }

@@ -4,10 +4,9 @@
     <script src="~/Scripts/jquery-1.10.2.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - transactions</title>
     @Styles.Render("~/Content/CSS")
-    @Scripts.Render("~/bundles/modernizr")
-    @Scripts.Render("~/bundles/JQWidgets")
+
         
 </head>
 <body>
@@ -32,9 +31,13 @@
     </div>
 
 
-    <div class="container body-content">
-        @RenderBody()
+    <div @*class="container body-content"*@>
         <hr />
+        <div style="padding-bottom:225px">
+            @RenderBody()
+
+        </div>
+    
         <footer style="">
             <p style="margin-top:72%;margin-left:-25%">&copy; @DateTime.Now.Year - Stock Market simulation Game v0.1 - <span style="color:red">Knites</span></p>
         </footer>
@@ -45,4 +48,6 @@
     @RenderSection("scripts", required: false)
 
 </body>
+@Scripts.Render("~/bundles/modernizr")
+@Scripts.Render("~/bundles/JQWidgets")
 </html>

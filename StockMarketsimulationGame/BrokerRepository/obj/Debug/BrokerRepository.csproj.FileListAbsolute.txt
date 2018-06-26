@@ -22,3 +22,15 @@ C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGam
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\obj\Debug\BrokerRepository.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\obj\Debug\BrokerRepository.dll
 C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\obj\Debug\BrokerRepository.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\bin\Debug\BrokerRepository.dll.config
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\bin\Debug\BrokerRepository.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\bin\Debug\BrokerRepository.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\bin\Debug\BusinessEntity.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\bin\Debug\EntityFramework.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\bin\Debug\EntityFramework.SqlServer.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\bin\Debug\BusinessEntity.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\bin\Debug\EntityFramework.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\bin\Debug\EntityFramework.SqlServer.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\obj\Debug\BrokerRepository.csprojResolveAssemblyReference.cache
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\obj\Debug\BrokerRepository.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\BrokerRepository\obj\Debug\BrokerRepository.pdb

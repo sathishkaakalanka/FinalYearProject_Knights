@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\BankAccount.cs" />
+    <Compile Include="Entities\CompanyDetails.cs" />
     <Compile Include="Entities\CompanyVersion.cs" />
     <Compile Include="Entities\Company.cs" />
     <Compile Include="Entities\BrokerTransaction.cs" />
@@ -75,6 +76,10 @@
     <Compile Include="Migrations\201806031647369_mmkhj.Designer.cs">
       <DependentUpon>201806031647369_mmkhj.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806250739362_broker.cs" />
+    <Compile Include="Migrations\201806250739362_broker.Designer.cs">
+      <DependentUpon>201806250739362_broker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StockMarket.cs" />
@@ -95,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806031647369_mmkhj.resx">
       <DependentUpon>201806031647369_mmkhj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806250739362_broker.resx">
+      <DependentUpon>201806250739362_broker.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

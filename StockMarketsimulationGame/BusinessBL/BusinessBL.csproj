@@ -53,7 +53,7 @@
   <ItemGroup>
     <Compile Include="MessageBL.cs" />
     <Compile Include="LoggedUserBL.cs" />
-    <Compile Include="BrokerBL.cs" />
+    <Compile Include="TransationBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +65,10 @@
       <Project>{29deae61-5169-48e1-81ca-974729bd97e8}</Project>
       <Name>CommonBL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CommonRepositorie\CommonRepository.csproj">
+      <Project>{92b4a973-db16-424f-a941-1f8a5b0d3c4d}</Project>
+      <Name>CommonRepository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Repositories\Repositories.csproj">
       <Project>{003b1ded-1d96-49d9-b61c-729cd6427912}</Project>
       <Name>Repositories</Name>
@@ -73,6 +77,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

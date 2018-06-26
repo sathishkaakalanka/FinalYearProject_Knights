@@ -1,32 +1,198 @@
 ﻿@{
-    ViewBag.Title = "Loggin";
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/Page_Layout_Loggin.cshtml";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<style>
+    .BigIcon {
+        font-size: 300px;
+    }
+
+    .FormPosition {
+        margin-top: 20%;
+        border: solid;
+        border-color: darkblue;
+        padding-bottom: 14px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 17px;
+    }
+
+    .Loggin {
+        margin-left: -20px;
+        margin-top: 55px;
+    }
+
+    .Submit {
+        margin-left: -70px;
+        margin-top: 113px;
+        border: none;
+    }
+
+    .SettingsNew {
+        margin-left: 1010px;
+        margin-bottom: 10px;
+    }
+
+    .SettingsForgot {
+        margin-left: 1010px;
+        margin-top: 0px;
+    }
+
+    .TextColour {
+        color: white;
+        margin-left: 15px;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        $("#jqxwindowNewUser").jqxWindow({
+            height: 327,
+            //height: 'auto',
+            width: 460,
+            theme: 'energyblue',
+            autoOpen: false,
+            isModal: false,
+            resizable: false,
+            position: 'top, middle',
+        });
+        $("#jqxwindowFogotPassword").jqxWindow({
+            height: 327,
+            //height: 'auto',
+            width: 460,
+            theme: 'energyblue',
+            autoOpen: false,
+            isModal: false,
+            resizable: false,
+            position: 'top, middle',
+        });
+
+    });
+    function NewUserLogin() {
+        $("#jqxwindowNewUser").jqxWindow('open');
+    }
+    function FogotPassword() {
+        $("#jqxwindowFogotPassword").jqxWindow('open');
+    }
+
+
+    function GetFogotPassword()
+    {
+        debugger;
+        var UName = $("#User").val();
+        var url = '@Url.Action("GetUserPassword", "Home")';
+        $.post(url, { UserName: UName },
+         function (data) {
+             var Msg = data.Getpassword;
+             if (Msg == true) {
+                 ShowMessage("Password is sent to your email Successfully!", "success");
+             }
+             else {
+                 if (Msg == false) {
+                     ShowMessage("Error in sending password to your email!", "warning");
+                 }
+             }
+         }
+
+         ).fail(function (ev) {
+         });
+        $("#jqxwindowFogotPassword").jqxWindow('close');
+    }
+</script>
+
+<button class="SettingsNew" style="background-color:blue" onclick="NewUserLogin()">
+
+    <i class="fa fa-cog fa-2x" style="color:#fff;background-color:blue;padding:unset">New</i>
+
+</button>
+<button class="SettingsForgot" style="background-color:darkblue" onclick="FogotPassword()">
+
+    <i class="fa fa-anchor fa-2x" style="color:#fff;background-color:darkblue;padding-bottom:3px;padding-top:3px;font-size:21px">Forgot</i>
+
+</button>
+
+
+
+<div class="row col-md-12 FormPosition">
+    <div class="col-md-5">
+        <i class="fa fa-user BigIcon " style="color:#fff;background-color:darkblue"></i>
+    </div>
+    @using (Html.BeginForm("UserLogin", "Home", new { ReturnMsg = ViewBag.ReturnMsg }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {<div>
+        <div class="col-md-6 Loggin">
+            <form>
+
+                <div style="padding-bottom:10px">
+                    @Html.Label("User Name", new { @class = "control-label col-sm-9", @style = "text-align:left;width:200px;font-size:20px;" })
+                </div>
+                <div style="padding-bottom:10px">
+                    @Html.TextBox("UserName", "", new { @class = "form-control", @id = "UserName", @style = "width:2000px;font-size:20px" })
+                </div>
+                <div>
+                    @Html.Label("Password", new { @class = "control-label col-sm-9", @style = "text-align:left;width:200px;font-size:20px" })
+                </div>
+                <div>
+                    @Html.Password("Logged", "", new { @class = "form-control", @id = "Logged", @style = "width:2000px;font-size:20px" })
+                </div>
+
+            </form>
+        </div>
+
+        <button class="col-md-1 Submit" type="submit" style="background-color:white">
+            <i class="fa fa-arrow-right fa-2x " style="color:#fff;background-color:darkblue;padding:unset"></i>
+        </button>
+    </div>
+    }
+</div>
+<div id='jqxwindowNewUser'>
+    <div>New Loggin</div>
+    <div style="padding-bottom:20px;padding-left:20px;padding-top:15px;padding-right:20px">
+        @using (Html.BeginForm("CreateNewUser", "Home", new { ReturnMsg = ViewBag.ReturnMsg }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="jqxWidget">
+                <form>
+                    <div style="padding-bottom:10px">
+                        @Html.Label("User Name", new { @class = "control-label col-sm-9", @style = "text-align:left;width:200px;font-size:20px;" })
+                    </div>
+                    <div style="padding-bottom:10px">
+                        @Html.TextBox("username", "", new { @class = "form-control", @id = "NewUser", @style = "width:2000px;font-size:20px" })
+                    </div>
+                    <div style="padding-bottom:10px">
+                        @Html.Label("E-Mail", new { @class = "control-label col-sm-9", @style = "text-align:left;width:200px;font-size:20px;" })
+                    </div>
+                    <div style="padding-bottom:10px">
+                        @Html.TextBox("Email", "", new { @class = "form-control", @id = "Email", @style = "width:2000px;font-size:20px" })
+                    </div>
+                    <div>
+                        @Html.Label("Password", new { @class = "control-label col-sm-9", @style = "text-align:left;width:200px;font-size:20px" })
+                    </div>
+                    <div>
+                        @Html.Password("Password", "", new { @class = "form-control", @id = "NewUserPassword", @style = "width:2000px;font-size:20px" })
+                    </div>
+                    <div>
+                        <button type="submit"></button>
+                    </div>
+                </form>
+            </div>
+        }
+    </div>
+</div>
+<div id='jqxwindowFogotPassword'>
+    <div>Password recover</div>
+    <div style="padding-bottom:20px;padding-left:20px;padding-top:15px;padding-right:20px">
+        <div class="jqxWidget">
+            <form>
+                <div style="padding-bottom:10px">
+                    @Html.Label("User Name", new { @class = "control-label col-sm-9", @style = "text-align:left;width:200px;font-size:20px;" })
+                </div>
+                <div style="padding-bottom:10px">
+                    @Html.TextBox("UserName", "", new { @class = "form-control", @id = "User", @style = "width:2000px;font-size:20px" })
+                </div>
+                <div>
+                    <button onclick="GetFogotPassword()"></button>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 
-@ViewBag.test
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
