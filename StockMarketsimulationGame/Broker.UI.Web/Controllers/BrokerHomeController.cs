@@ -13,6 +13,7 @@ namespace Broker.UI.Web.Controllers
         {
             return View();
         }
+<<<<<<< HEAD
         //public ActionResult UserLogin(string UserName, string Logged)
         //{
 
@@ -50,5 +51,11 @@ namespace Broker.UI.Web.Controllers
         //    return Json(Getpassword);
         //}
 
+=======
+        public ActionResult Broker_Details()
+        {
+            return View();
+        }
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
     }
 }

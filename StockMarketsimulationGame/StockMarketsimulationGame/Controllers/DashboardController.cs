@@ -5,8 +5,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using BusinessEntity;
 using BusinessBL;
+=======
+using System.Web.Routing;
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
 =======
 using System.Web.Routing;
 >>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
@@ -67,6 +71,34 @@ namespace StockMarketsimulationGame.Controllers
             return Redirect("Index");
 
         }  
+=======
+
+        public ActionResult Broker()
+        {
+            return View();
+        }
+
+        public ActionResult Analyst()
+        {
+            return View();
+        }
+
+        public ActionResult Player()
+        {
+            return View();
+        }
+
+        public ActionResult Player2()
+        {
+            return View();
+        }
+
+        public ActionResult Player3()
+        {
+            return View();
+        }
+<<<<<<< HEAD
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
 =======
 
         public ActionResult Broker()

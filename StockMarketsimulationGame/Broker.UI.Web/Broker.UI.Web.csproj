@@ -168,6 +168,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+<<<<<<< HEAD
     <Content Include="Content\jqx.android.css" />
     <Content Include="Content\jqx.arctic.css" />
     <Content Include="Content\jqx.base.css" />
@@ -201,6 +202,9 @@
     <Content Include="Content\jqx.web.css" />
     <Content Include="Content\jqx.windowsphone.css" />
     <Content Include="Content\CanversJS\CanversJSGraphs.js" />
+=======
+    <Content Include="Content\CanversJSGraphs.js" />
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -343,8 +347,28 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\BrokerHome\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\BrokerDashboard\Index.cshtml" />
     <Content Include="Views\Shared\Page_Layout_Loggin.cshtml" />
+=======
+    <None Include="Service References\ServiceReference1\service.wsdl" />
+    <None Include="Service References\ServiceReference1\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference2\BrokerService.wsdl" />
+    <None Include="Service References\ServiceReference2\BrokerService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference2\BrokerService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Views\BrokerHome\Broker_Details.cshtml" />
+    <Content Include="Views\Shared\NewPage_Layout.cshtml" />
+    <Content Include="Views\Shared\NewPage_Layout_Loggin.cshtml" />
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

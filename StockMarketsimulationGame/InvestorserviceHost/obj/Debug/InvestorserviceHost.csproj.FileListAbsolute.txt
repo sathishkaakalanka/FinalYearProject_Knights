@@ -1,0 +1,87 @@
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\ApplicationInsights.config
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.dll.config
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessBL.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Web.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessEntity.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Repositories.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessBL.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Web.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessEntity.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\bin\Repositories.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\ApplicationInsights.config
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.dll.config
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessBL.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Web.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessEntity.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Repositories.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessBL.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.xml
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Web.xml
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessEntity.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Repositories.pdb
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.dll
+C:\Users\ASUS\Documents\GitHub\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\ApplicationInsights.config
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.dll.config
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\InvestorserviceHost.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessBL.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.SqlServer.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Agent.Intercept.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.DependencyCollector.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Web.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.WindowsServer.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.ApplicationInsights.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessEntity.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Repositories.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessBL.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\EntityFramework.SqlServer.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.DependencyCollector.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.Web.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.AI.WindowsServer.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Microsoft.ApplicationInsights.xml
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\BusinessEntity.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\bin\Repositories.pdb
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.csprojResolveAssemblyReference.cache
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.dll
+D:\last\FinalYearProject_Knights\StockMarketsimulationGame\InvestorserviceHost\obj\Debug\InvestorserviceHost.pdb

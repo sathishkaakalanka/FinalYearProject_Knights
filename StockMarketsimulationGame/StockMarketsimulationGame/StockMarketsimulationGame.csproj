@@ -569,14 +569,20 @@
     </None>
     <Content Include="Views\Dashboard\Analyst.cshtml" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Content Include="Views\Dashboard\Transaction.cshtml" />
     <Content Include="Views\Dashboard\Player.cshtml" />
     <Content Include="Views\Shared\Dashboard_Layout.cshtml" />
 =======
+=======
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
     <Content Include="Views\Dashboard\Player.cshtml" />
     <Content Include="Views\Dashboard\Player2.cshtml" />
     <Content Include="Views\Dashboard\Player3.cshtml" />
     <Content Include="Views\Dashboard\Broker.cshtml" />
+<<<<<<< HEAD
+>>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
+=======
 >>>>>>> 5c0c5f8a2ba390f128684b1234fb848c82a46819
   </ItemGroup>
   <ItemGroup>
